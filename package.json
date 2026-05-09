@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-tracker",
+  "version": "1.0.0",
+  "description": "A full-stack portfolio tracking application built using React and Flask.",
+  "main": "index.js",
+  "scripts": {
+     "frontend": "cd frontend && npm start",
+     "backend": "cd backend && python app.py",
+     "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thericcks/portfolio-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thericcks/portfolio-tracker/issues"
+  },
+  "homepage": "https://github.com/thericcks/portfolio-tracker#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

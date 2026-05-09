@@ -1,4 +1,4 @@
-# Portfolio Tracker
+# Portfolio Tracker (AI GENERATED VIA PROMPTING)
 
 A full-stack portfolio tracking application built using React and Flask.
 

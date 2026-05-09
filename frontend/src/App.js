@@ -1,3 +1,4 @@
+import './App.css';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -95,7 +96,7 @@ function App() {
 
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div className="app-container">
 
       <h1>Portfolio Tracker</h1>
 
